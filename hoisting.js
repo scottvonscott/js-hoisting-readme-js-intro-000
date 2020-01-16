@@ -11,7 +11,7 @@ var thisIsCrazy = function (){
   console.log("hey!!!")
 
 function crazy() {
-  return function thisIsCrazy()
+  return 1+1
   }
 
 
