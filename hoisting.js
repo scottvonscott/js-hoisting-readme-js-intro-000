@@ -7,9 +7,3 @@ function callMe() {
   lyric = "maybe";
   return lyric;
 }
-
-function crazy() {
-  var thisIsCrazy = function(){
-    console.log ("hey!!!")
-  } thisIsCrazy()
-}
