@@ -10,15 +10,18 @@ function callMe() {
 
 
 function crazy() {
-  var thisIsCrazy = function (){
+  var thisIsCrazy
+  thisIsCrazy = function (){
     console.log("hey!!!")
   } thisIsCrazy()
 }
 
 function sayMyName() {
-  var name = "Cricky"
+  var name
+  name = "Cricky"
   function sayMy() {
-    var name = "Kristin"
+    var name
+    name = "Kristin"
     console.log(name)
   }   sayMy()
 }
